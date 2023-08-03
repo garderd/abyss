@@ -1,0 +1,30 @@
+.search-page-form{
+	display: flex;
+	align-items: flex-end;
+}
+.search-query{
+	border: 0;
+    outline: 0;
+    border-bottom: 1px solid #969696;
+    margin-right: 20px;
+    transition: 0.3s;	
+    width: 100%;
+    font-family: 'ScalaSans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #969696;
+}
+.search-result{
+    margin: 100px 0 100px 0;
+}
+.search-result .h2{
+    color: #969696;
+}
+@media(max-width: 480px){
+    .search-result{
+        margin: 60px 0 30px 0;
+    }
+}
